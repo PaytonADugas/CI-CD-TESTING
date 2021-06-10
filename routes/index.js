@@ -9,7 +9,7 @@ router.get('/home', function(req, res, next) {
   res.render('home', { title: 'Home' });
 });
 router.get('/login', function(req, res, next) {
-  res.render('login', { title: 'Home' });
+  res.render('login', { title: 'Login' });
 });
 
 module.exports = router;
